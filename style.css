@@ -1,0 +1,239 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fonts/idroid.otf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E9E6C3;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #218C52, #043D1D);
+    margin: -20px;
+    padding: 40px;
+}
+
+header>h1 {
+    text-align: center;
+    color: white;
+
+}
+
+header>article {
+    text-align: center;
+    color: white;
+}
+
+header>nav {
+    margin: 30px 0px -27px -12px;
+
+}
+
+
+header>nav>a {
+    text-decoration: none;
+    margin: auto 8px 8px;
+    color: #86CBA3;
+    text-align: left;
+    font-weight: 520;
+
+}
+
+header>nav>a:hover {
+    background-color: #86CBA3;
+    color: #043D1D;
+    padding: 2px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+main {
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 50px 1px 50px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.342);
+    border-radius: 1px 1px 7px 7px;
+}
+
+
+main>h1 {
+    font-family: 'idroid';
+    color: #043D1D;
+
+}
+
+main>h2 {
+    font-family: 'idroid';
+    background-image: linear-gradient(to right, #86CBA3, white);
+    color: #097036;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+main>p>a {
+    text-decoration: none;
+    color: #043D1D;
+    background-color: #86CBA3;
+    padding: 2px;
+    border-radius: 2px;
+    font-weight: bold;
+
+
+}
+
+main>p>a:hover {
+    text-decoration: underline;
+    color: #043D1D;
+}
+
+main>p>a::after {
+    content: '🔗';
+
+}
+
+main>p>strong {
+    color: #043D1D;
+}
+
+
+
+main>div {
+    background-image: linear-gradient(to right, #0b6631, rgb(10, 85, 10), #0b6631);
+    padding: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+}
+
+main>picture{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+iframe {
+    width: 100vw;
+    height: 56.25vw; /* proporção de 16:9 */
+    max-width: 100%;
+    max-height: 56.25vh;
+}
+
+
+
+
+
+
+
+
+
+
+/*Parte "Quer aprender mais?"*/
+article#mais {
+    background-color: #86CBA3;
+    padding: 3px;
+    margin: 28px 49px 79px 49px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.342);
+}
+
+article#mais>p {
+    letter-spacing: 0px;
+    line-height: 32px;
+    margin-top: 37px;
+    margin-bottom: 7px;
+    margin-left: 15px;
+    margin-right: 8px;
+}
+
+article#mais>h3 {
+    background-color: #043D1D;
+    margin: -4px -3px -2px -3px;
+    border-radius: 5px 5px 0px 0px;
+    color: white;
+    padding: 4px;
+}
+
+article#mais>p>strong {
+    color: #043D1D;
+}
+
+
+/*LISTAS DIVIDIDAS*/
+.lista {
+    display: flex;
+}
+
+article#mais>.lista>ul {
+    list-style-type: none;
+    /* Remove o marcador padrão */
+    width: 50%;
+    /* Define a largura de cada lista como 50% do contêiner */
+    padding: 0;
+    /* Remove o padding padrão */
+}
+
+article#mais>.lista>ul>li::before {
+    content: '✔';
+}
+
+
+/*Link no quer saber mais*/
+article#mais>p>a {
+    text-decoration: none;
+    color: #043D1D;
+    background-color: #86CBA3;
+    padding: 2px;
+    border-radius: 2px;
+    font-weight: bold;
+
+}
+
+article#mais>p>a:hover {
+    text-decoration: underline;
+    color: #043D1D;
+}
+
+article#mais>p>a::after {
+    content: '🔗';
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #043D1D;
+    text-align: center;
+    color: white;
+    padding: 1px;
+    margin: 22px -14px -15px -14px;
+
+}
